@@ -1,5 +1,5 @@
 HELLO I AM A FILE
 
-NICE TO MEET YOU!
+ITS TERRIBLE WEATHER TODAY, ISN'T IT?
 
 This is a change to the file

@@ -3,3 +3,5 @@ HELLO I AM A FILE
 ITS TERRIBLE WEATHER TODAY, ISN'T IT?
 
 This is a change to the file
+
+Mars is a nice planet, could be good for living. 

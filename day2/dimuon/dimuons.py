@@ -2,10 +2,15 @@
 
 import ROOT as r
 
+def tree_from_file(file_):
+    global data_file
+    data_file = r.TFile(file_)
+    return data_file.Get("events")
+
 if __name__=='__main__':
     print "Creating histograms..."
-    data_file = r.TFile("/users/lewis/GitFiles/SWC/day2/data/events.root")
-    tree_ = data_file.Get("events")
+    file_ = "/users/lewis/GitFiles/SWC/day2/data/events.root"
+    tree_ = tree_from_file(file_)
     tree_.Print()
     n_events = tree_.GetEntries()
     for i in xrange(n_events):
